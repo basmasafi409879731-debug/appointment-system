@@ -24,14 +24,11 @@
 * **صفحة الحسابات:** تسجيل دخول جديد أو الوصول لحسابكِ الخاص.
 * **صفحة مواعيدي:** واجهة مخصصة للزبونة لمراجعة حالة حجوزاتها.
 * **لوحة تحكم الأدمن:** تتيح للأدمن استعراض جميع الحجوزات وتحديث حالتها.
+## مخطط علاقات الكيانات (ERD)
 
-## 🔗 مخطط علاقات الكيانات (ERD)
 ```mermaid
 erDiagram
-    users ||--o{ appointments : makes
-    services ||--o{ appointments : has
-    employees ||--o{ appointments : manages
-
+  
     users {
         int id
         string username
