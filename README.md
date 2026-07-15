@@ -28,9 +28,9 @@
 ## 🔗 مخطط علاقات الكيانات (ERD)
 ```mermaid
 erDiagram
-    users ||--o{ appointments : "makes"}
-    services ||--o{ appointments : "has"}
-    employees ||--o{ appointments : "manages"}
+    users ||--o{ appointments : makes
+    services ||--o{ appointments : has
+    employees ||--o{ appointments : manages
 
     users {
         int id
@@ -61,4 +61,4 @@ erDiagram
 هذا المشروع من إنجاز الطالبة:
 
  بسمة رامز عمر صافي 
- يمنى عبد العزيز احمد الحسناتة
+  يمنى عبد العزيز احمد الحسنات 
