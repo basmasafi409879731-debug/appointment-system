@@ -1,0 +1,49 @@
+/* سطر 4: استيراد خط "Cairo" من جوجل لضمان مظهر عربي عصري وواضح[cite: 10] */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
+
+/* سطر 6-10: تنسيق الجسم العام للصفحة[cite: 10] */
+body {
+    font-family: 'Cairo', sans-serif; /* تطبيق الخط المختار[cite: 10] */
+    background-color: #FCE4EC !important; /* ضبط لون الخلفية ليكون وردياً فاتحاً جداً[cite: 10] */
+    color: #5D4037; /* ضبط لون الخط ليكون بنياً ترابياً هادئاً[cite: 10] */
+}
+
+/* سطر 13-17: تنسيق شريط التنقل (Navbar)[cite: 10] */
+.navbar {
+    background-color: #D8A7B1 !important; /* لون وردي ترابي للشريط[cite: 10] */
+    border-radius: 0 0 25px 25px; /* تدوير الزوايا السفلية فقط ليعطي شكلاً انسيابياً[cite: 10] */
+    box-shadow: 0 4px 10px rgba(216, 167, 177, 0.2) !important; /* إضافة ظل خفيف حول الشريط[cite: 10] */
+}
+
+/* سطر 20-25: تنسيق البطاقات (Cards) والجداول (Tables)[cite: 10] */
+.card, .table {
+    border: none !important; /* إزالة الحدود الافتراضية[cite: 10] */
+    border-radius: 20px !important; /* تقريب زوايا العناصر لتكون ناعمة[cite: 10] */
+    box-shadow: 0 8px 24px rgba(216, 167, 177, 0.1) !important; /* ظل ناعم يعطي عمقاً للعناصر[cite: 10] */
+    background-color: #FFFFFF !important; /* لون خلفية أبيض للبطاقات[cite: 10] */
+}
+
+/* سطر 28-29: تحسين شكل الجداول[cite: 10] */
+.table { overflow: hidden; } /* إخفاء أي عناصر تخرج عن حدود الجدول[cite: 10] */
+.table thead { background-color: #F8F1F2; color: #5D4037; } /* خلفية فاتحة لرأس الجدول[cite: 10] */
+
+/* سطر 32-37: تنسيق الأزرار (Buttons)[cite: 10] */
+.btn-primary { background-color: #D8A7B1 !important; border: none !important; border-radius: 12px !important; } /* الزر الأساسي[cite: 10] */
+.btn-primary:hover { background-color: #C28E99 !important; } /* تغيير اللون عند تمرير الفأرة[cite: 10] */
+.btn-warning { background-color: #E2B7A0 !important; color: white !important; border-radius: 10px !important; } /* زر التحذير بلون بيج ترابي[cite: 10] */
+.btn-secondary { background-color: #BCAAA4 !important; border-radius: 10px !important; } /* زر الإلغاء بلون رمادي ترابي[cite: 10] */
+
+/* سطر 40-47: تنسيق حقول الإدخال (Inputs)[cite: 10] */
+.form-control {
+    border: 2px solid #FCE4EC !important; /* حدود وردية فاتحة[cite: 10] */
+    border-radius: 12px !important; /* زوايا مستديرة[cite: 10] */
+    padding: 10px; /* مساحة داخلية للنص[cite: 10] */
+}
+.form-control:focus { /* عند النقر داخل الحقل[cite: 10] */
+    border-color: #D8A7B1 !important; /* تغيير لون الحدود[cite: 10] */
+    box-shadow: 0 0 5px rgba(216, 167, 177, 0.3); /* إضافة إضاءة خفيفة[cite: 10] */
+}
+
+/* سطر 50-51: تأثير حركي للصور[cite: 10] */
+.card-img-top { transition: transform 0.4s ease; } /* تفعيل الحركة السلسة[cite: 10] */
+.card-img-top:hover { transform: scale(1.05); } /* تكبير الصورة قليلاً عند تمرير الفأرة[cite: 10] */
